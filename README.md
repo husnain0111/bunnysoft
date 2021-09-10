@@ -302,6 +302,7 @@ Updivision Blog: <https://updivision.com/blog/?ref=sudl-readme>
 
 - sudo cp .env.example .env
 - composer install
+- composer dump-autoload
 - php artisan key:generate
 - php artisan migrate
 - php artisan db:seed
