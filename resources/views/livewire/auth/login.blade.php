@@ -8,7 +8,7 @@
                             <h3 class="font-weight-bolder text-info text-gradient">{{ __('Welcome back') }}</h3>
                         </div>
                         <div class="card-body">
-                            <form wire:submit.prevent="login" method="GET" role="form text-left">
+                            <form wire:submit.prevent="login" method="POST" role="form text-left">
                                 @csrf
                                 <div class="mb-3">
                                     <label for="email">{{ __('Email') }}</label>
