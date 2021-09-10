@@ -298,8 +298,15 @@ Updivision Blog: <https://updivision.com/blog/?ref=sudl-readme>
 - [Creative Tim](https://creative-tim.com/?ref=sudl-readme)
 - [UPDIVISION](https://updivision.com)
 
+//setting up locally - commands
 
-
+- sudo cp .env.example .env
+- composer install
+- php artisan key:generate
+- php artisan migrate
+- php artisan db:seed
+- npm install or yarn
+- php artisan serve
 
 
 
