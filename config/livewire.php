@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'asset_url' => "https://bunny-soft.herokuapp.com/public",
+    'asset_url' => null,
 
     /*
     |--------------------------------------------------------------------------
