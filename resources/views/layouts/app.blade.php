@@ -1,4 +1,5 @@
 <x-layouts.base>
+<livewire:styles> <livewire:scripts>
     {{-- If the user is authenticated --}}
     @auth()
         {{-- If the user is authenticated on the static sign up or the sign up page --}}
