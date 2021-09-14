@@ -10,6 +10,7 @@
                         <div class="card-body">
                             <form wire:submit.prevent="login" method="GET" role="form text-left">
                                 @csrf
+                                
                                 <div class="mb-3">
                                     <label for="email">{{ __('Email') }}</label>
                                     <div class="@error('email')border border-danger rounded-3 @enderror">
